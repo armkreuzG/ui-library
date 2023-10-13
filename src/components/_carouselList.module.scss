@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+  width: 1000px;
+
+  .swiper {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+
+    .slide {
+      height: auto;
+    }
+  }
+
+  .prev,
+  .next {
+    &::after {
+      color: #000;
+    }
+  }
+
+  .prev {
+    left: -40px;
+  }
+
+  .next {
+    right: -40px;
+  }
+}
